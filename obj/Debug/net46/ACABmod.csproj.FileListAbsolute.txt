@@ -1,0 +1,13 @@
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\bin\Debug\net46\ACABmod.dll
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\bin\Debug\net46\ACABmod.pdb
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\ACABmod.csproj.AssemblyReference.cache
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\PluginInfo.cs
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\ACABmod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\ACABmod.AssemblyInfoInputs.cache
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\ACABmod.AssemblyInfo.cs
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\ACABmod.csproj.CoreCompileInputs.cache
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\ACABmod.dll
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\ACABmod.pdb
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\bin\Debug\net46\Assembly-CSharp-publicized.dll
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\obj\Debug\net46\ACABmod.csproj.CopyComplete
+C:\Users\emild\RiderProjects\ACABmod\ACABmod\bin\Debug\net46\UnityEngine.CoreModule.dll
