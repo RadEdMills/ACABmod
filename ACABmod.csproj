@@ -4,7 +4,7 @@
     <TargetFramework>net47</TargetFramework>
     <AssemblyName>ACABmod</AssemblyName>
     <Description>My first plugin</Description>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
