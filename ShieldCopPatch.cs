@@ -4,20 +4,20 @@ using UnityEngine;
 
 namespace ACABmod
 {
-    [HarmonyPatch(typeof(BasicCop))]
-    [HarmonyPatch(nameof(BasicCop.UpdateState))]
-    public class BasicCopPatch
+    [HarmonyPatch(typeof(ShieldCop))]
+    [HarmonyPatch(nameof(ShieldCop.UpdateState))]
+    public class ShieldCopPatch
     {
-        static bool Prefix(BasicCop __instance)
+        static bool Prefix(ShieldCop __instance)
         {
-            if (__instance.basicCopState == BasicCop.BasicCopState.HITRESPONSE && __instance.HP <= 0 && 
+            if (__instance.shieldCopState == ShieldCop.ShieldCopState.HITRESPONSE && __instance.HP <= 0 && 
                 (__instance.hitBoxResponse.State != EnemyHitResponse.HitResponseState.KNOCKBACK ||
                  __instance.hitBoxResponse.State != EnemyHitResponse.HitResponseState.KNOCKDOWN ||
                  __instance.hitBoxResponse.State != EnemyHitResponse.HitResponseState.NONE) &&
                 __instance.hitBoxResponse.State == EnemyHitResponse.HitResponseState.LYINGDOWN)
             {
-                Debug.Log("Basic cop dead");
-                __instance.SetState(BasicCop.BasicCopState.DIE);
+                Debug.Log("Shield cop dead");
+                __instance.SetState(ShieldCop.ShieldCopState.DIE);
                 return false;
             }
             
